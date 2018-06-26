@@ -5,6 +5,8 @@ class App < Sinatra::Base
 	end
 	
 	get '/secondpage' do
+	  erb :secondpage
+	end 
 
 
 end
