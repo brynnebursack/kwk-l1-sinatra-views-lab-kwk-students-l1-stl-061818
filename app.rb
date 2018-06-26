@@ -4,8 +4,8 @@ class App < Sinatra::Base
 		erb :index
 	end
 	
-	get '/secondpage' do
-	  erb :secondpage
+	get '/hello' do
+	  erb :hello
 	end 
 
 
